@@ -12,10 +12,15 @@ const  Schema=new mongoose.Schema(
              required:true
 ,             maxLength:50,
         },
-        fathername:{
+         fathername:{
             type:String,
             required:true,
-            maxLength:50,
+            maxLength:15
+         
+        },
+        age:{
+            type:String,
+            required:true
         },
         email:{
             type:String,
